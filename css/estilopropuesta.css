@@ -1,0 +1,258 @@
+/*ESTILOS DE BANNER TRASLUCIDO */
+
+.container {
+  margin: auto;
+  margin-top: -60px;
+  background-image: url(../img/8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 90%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 0 0.2rem white, 0 0 0 0.1875rem, 0 0.1875rem 1rem;
+}
+
+.container:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.container h1 {
+  padding-top: 80px;
+  color: white;
+  position: relative;
+  font-size: 60px;
+  font-family: "Comic Neue", cursive;
+}
+
+.container p {
+  margin-top: 190px;
+  display: block;
+  color: white;
+  position: relative;
+  font-size: 25px;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*ESTILO DE PRIMER CAJA DE CICLOS*/
+
+.contecontainer {
+  margin: 50px auto 20px auto;
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 0.1875rem, 0 0.1875rem 2rem;
+  border-radius: 5%;
+}
+
+.contecontainerciclos {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.textocontainer {
+  margin-top: 20px;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #dab745;
+  box-shadow: 0 0 15px #cccccc;
+  background: #f8f8f8;
+  height: auto;
+}
+
+.imagenciclos {
+  width: 65%;
+}
+
+.imagenciclos img {
+  margin: 60px 20px;
+  width: 95%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.textocontainer h2 {
+  display: inline;
+  color: #061161;
+  font-size: 30px;
+  font-family: "Comic Neue", cursive;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 3px solid red;
+}
+
+.textocontainer p {
+  width: 100%;
+  margin-left: 0px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  text-align: justify;
+  height: auto;
+}
+
+.textocontainer h3 {
+  text-align: center;
+  color: #061161;
+  font-size: 26px;
+  font-family: "Comic Neue", cursive;
+  padding-bottom: 10px;
+}
+
+.textocontainer h4 {
+  text-align: center;
+  color: #061161;
+  font-size: 22px;
+  font-family: "Comic Neue", cursive;
+  padding-bottom: 10px;
+}
+
+.textocontainer ol {
+  display: inline;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/*ESTILO DE PRIMER CAJA DE CAMPOS*/
+
+.campos {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.campos h3 {
+  text-align: center;
+  color: #061161;
+  font-size: 26px;
+  font-family: "Comic Neue", cursive;
+  padding-bottom: 10px;
+}
+
+.campos p {
+  height: 125px;
+  width: 95%;
+  margin: 0;
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.campos ol {
+  padding-top: 20px;
+  display: inline;
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+.textcampo {
+  margin: 50px 30px;
+  padding: 20px;
+  border-radius: 10%;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #dab745;
+  box-shadow: 0 0 15px #cccccc;
+  background: #f8f8f8;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+}
+
+.imagencampo {
+  margin: 50px 30px;
+  padding: 20px;
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imagen1campo img {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  height: auto;
+  width: 80%;
+}
+
+.imagen2campo img {
+  border-radius: 40% 60% 20% 80% / 81% 16% 84% 19%;
+  margin: 25px 20px 50px 5px;
+  height: autox;
+  width: 100%;
+}
+
+/*ESTILO DE PRIMER CAJA DE ORIENTACION*/
+
+.orienta {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  margin: 50px o 100px 0;
+}
+.imagenorienta {
+  width: 35%;
+}
+
+.imagen1orienta img {
+  border-radius: 30% 70% 37% 63% / 28% 30% 70% 72%;
+  height: auto;
+  width: 90%;
+  margin: 150px 15px;
+}
+.textorienta {
+  padding: 20px 5px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-left-color: #dab745;
+  box-shadow: 0 0 15px #cccccc;
+  background: #f8f8f8;
+  width: 35%;
+  border-radius: 5%;
+  margin: 70px 10px;
+}
+
+.textorienta h3 {
+  text-align: center;
+  color: #061161;
+  font-size: 32px;
+  font-family: "Comic Neue", cursive;
+  padding-bottom: 10px;
+}
+
+.textorienta p {
+  height: auto;
+  padding: 10px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.imagen2orienta img {
+  border-radius: 8% 92% 37% 63% / 81% 44% 56% 19%;
+  height: auto;
+  width: 90%;
+  margin: 150px 50px 0 5px;
+}

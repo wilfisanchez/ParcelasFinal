@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Boogaloo&family=Lato:ital@0;1&family=Open+Sans:ital@0;1&family=Poppins:ital@0;1&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 8.7rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    background: rgba(0, 0, 0, 0.8);
+    line-height: 1.4rem;
+}
+
+.titulo {
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.contenedor-galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeriaimg {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: escalar 2s infinite alternate;
+    cursor: pointer;
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(1.05);
+    }
+}
+
+.galeriaimg:hover {
+    filter: brightness(100%)
+}
+
+figure {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption {
+    color: white;
+    transition: all 2s;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    left: 0px;
+    bottom: -100px;
+    background: rgb(114, 113, 113);
+    width: 100%;
+    padding: 0;
+}
+
+figcaption p {
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+figure:hover figcaption {
+    bottom: 15px;
+}
+
+header {
+    background-image: url(../img/paisajeclarogrande72.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: unset;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.cabecera {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cajalogo {
+    margin-left: 5rem;
+    width: 25%;
+    text-align: center;
+}
+
+.cajalogo .logosolo img {
+    width: 6.875rem;
+    height: 6.875rem;
+}
+
+.cajalogo h1 {
+    line-height: 2rem;
+    font-size: 2rem;
+    margin-top: -.5rem;
+    margin-left: 0;
+    font-style: italic;
+    font-family: 'Boogaloo', cursive;
+    color: #061161;
+}
+
+.caja-menu-telefonos {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.telefonos {
+    margin-right: 0.125rem;
+    margin-left: 0px;
+    margin-bottom: 3rem;
+    width: 85%;
+    display: flex;
+    box-shadow: 0 0.1875rem 0 rgba(4, 8, 219, 0.5);
+}
+
+.telefonos ul {
+    list-style: none;
+}
+
+.telefonos ul li {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.menu {
+    width: 92%;
+    height: 2.2rem;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu .item {
+    float: left;
+}
+
+.menu .item a {
+    border-radius: 5%;
+    text-decoration: none;
+    background: rgba(1, 1, 61, 0.9);
+    color: white;
+    padding: 10px 22px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.menu .desple {
+    display: none;
+    position: absolute;
+    min-width: 175px;
+}
+
+.menu .item a:hover {
+    background-color: #f8890a;
+}
+
+.menu .item:hover .desple {
+    display: block;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    background-image: url(../img/hoja.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: unset;
+    z-index: 2;
+    margin-top: 300px;
+    border-top: 2px solid black;
+    padding-top: 10px
+}
+
+.pieprincipal {
+    margin: 0;
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pieencabezado {
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pielogo {
+    width: 32%;
+    height: 12.5rem;
+    text-align: center;
+}
+
+.pielogo .logosolo .logo img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pielogo h3 {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-top: -.5rem;
+    font-style: italic;
+    font-family: 'Boogaloo', cursive;
+    color: #061161;
+}
+
+.pielogo p {
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.6rem;
+    margin-top: .5rem;
+    font-style: italic;
+    color: black;
+}
+
+.piesede {
+    margin-left: 1rem;
+    width: 18%;
+    height: 12.5rem;
+}
+
+.piesede h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.piesede ul {
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    list-style: none;
+}
+
+.piesede ul li a {
+    border-radius: 10%;
+    transition: .5s linear;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0rem;
+    text-decoration: none;
+}
+
+.piesede ul li a:hover {
+    color: #f8890a;
+    background: rgba(0, 0, 0, .5);
+}
+
+.piecontacto {
+    width: 30%;
+    height: 12.5rem;
+}
+
+.iconos {
+    margin-top: 7px;
+    margin-left: 170px;
+}
+
+.piecontacto h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.piecontacto p {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    margin-top: 0.3375rem;
+    font-weight: bold;
+}
+
+.piecontacto .fa-envelope-o {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.pieubicacion {
+    width: 20%;
+    height: 12.5rem;
+}
+
+.pieubicacion h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.pieubicacion p {
+    color: black;
+    font-size: 0.9375rem;
+    text-align: center;
+    line-height: 0.9375rem;
+    margin-top: 0.0625rem;
+}
+
+.pieubicacion iframe {
+    margin: 0.3125rem;
+    margin-left: 3rem;
+    width: 10.9375rem;
+    height: 8.125rem;
+    border-radius: 20%;
+}
+
+.piemenu {
+    width: 100%;
+    height: 6.25rem;
+}
+
+.derechos {
+    width: 100%;
+    height: 2.5rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.derechos h2 {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0.5rem;
+}

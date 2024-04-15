@@ -1,0 +1,222 @@
+/* Estilo de los vinculs */
+
+.vinculos {
+    margin: auto;
+    width: 90%;
+    border-radius: 10%;
+    border-left-style: solid;
+    border-left-width: 0.3125em;
+    border-left-color: #df1721;
+    box-shadow: 0 0 0.9375em #cccccc;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vinculos h2 {
+    padding: 1.25em;
+    font-size: 1.875em;
+    color: #061161;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.links {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 1.25em auto;
+}
+
+.links img {
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5%;
+    box-shadow: 3px 0.3125em 1.5625em rgba(0, 0, 0, 0.548);
+    transition: 1s;
+}
+
+.links img:hover {
+    transform: scale(1.1);
+}
+
+
+/*ESTILOS DE PIE DE PAGINA */
+
+footer {
+    background-image: url(../img/hoja.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: unset;
+    z-index: 2;
+    margin-top: 3.125em;
+}
+
+.pieprincipal {
+    margin: 0;
+    width: 100%;
+    height: 12.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.pieencabezado {
+    width: 100%;
+    height: 12.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pielogo {
+    width: 32%;
+    height: 12.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logosolopie {
+    background-image: url(../img/escudosinfondo.ico);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+
+.pielogo h3 {
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #061161;
+    font-weight: 800;
+}
+
+.pielogo p {
+    width: 100%;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 0.7em;
+    font-style: italic;
+    color: black;
+}
+
+.piesede {
+    margin-left: 2em;
+    width: 18%;
+    height: 12.5em;
+}
+
+.piesede h2 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #061161;
+    font-family: 'Comic Neue', cursive;
+}
+
+.piesede ul {
+    line-height: 1.2em;
+    margin-top: 0.3em;
+    list-style: none;
+}
+
+.piesede ul li a {
+    border-radius: 10%;
+    transition: .5s linear;
+    color: black;
+    font-size: 1em;
+    margin-left: 0em;
+    text-decoration: none;
+}
+
+.piesede ul li a:hover {
+    color: #f8890a;
+    background: rgba(0, 0, 0, .5);
+}
+
+.piecontacto {
+    width: 30%;
+    height: 12.5em;
+}
+
+.iconos {
+    margin-top: 0.4375em;
+    margin-left: 10.625em;
+}
+
+.piecontacto h2 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #061161;
+    font-family: 'Comic Neue', cursive;
+}
+
+.piecontacto p {
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    margin-top: 0.3375em;
+    font-weight: bold;
+}
+
+.piecontacto .fa-envelope-o {
+    margin-left: 11.25em;
+    margin-top: 1.25em;
+}
+
+.pieubicacion {
+    width: 20%;
+    height: 12.5em;
+}
+
+.pieubicacion h2 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #061161;
+    font-family: 'Comic Neue', cursive;
+}
+
+.pieubicacion p {
+    color: black;
+    font-size: 0.9375em;
+    text-align: center;
+    line-height: 0.9375em;
+    margin-top: 0.0625em;
+}
+
+.pieubicacion iframe {
+    margin: 0.3125em;
+    margin-left: 3em;
+    width: 10.9375em;
+    height: 8.125em;
+    border-radius: 20%;
+}
+
+.piemenu {
+    width: 100%;
+    height: 6.25em;
+}
+
+.derechos {
+    width: 100%;
+    height: 2.5em;
+    background: rgb(43, 42, 42);
+}
+
+.derechos h2 {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Comic Neue', cursive;
+}

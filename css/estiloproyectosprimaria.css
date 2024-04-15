@@ -1,0 +1,663 @@
+/* ESTILOS DE INTRO */
+
+.intro {
+    margin: auto;
+    margin-top: -10px;
+    width: 90%;
+    height: 400px;
+    background-image: url(../img/proyectosp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30% 70% 52% 48% / 57% 30% 70% 43%;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.185rem 1rem;
+}
+
+.intro:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    opacity: 0.6;
+    border-radius: 30% 70% 52% 48% / 57% 30% 70% 43%;
+}
+
+.tituintro {
+    padding-top: 40px;
+    color: white;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.intro p {
+    line-height: 25px;
+    margin-top: 110px;
+    display: block;
+    color: white;
+    position: relative;
+    font-size: 23px;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/*TARJETAS DE PROYECTOS */
+
+.mainproyectos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    margin-bottom: 50px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.titulos h1 {
+    background-color: #89ceb3;
+    border-radius: 0px 40px 0px 40px;
+    width: 800px;
+    margin-top: 70px;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    color: #061161;
+    text-shadow: 4px 4px 5px #061161;
+    letter-spacing: 2px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+.titulos h2 {
+    background-color: #3b8a49;
+    border-radius: 0px 40px 0px 40px;
+    border: 5px solid #fafafa;
+    width: 600px;
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 4px 4px 5px #061161;
+    letter-spacing: 2px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+}
+
+.titulos p {
+    margin-top: 10px;
+    background-color: #a8f8b7;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #061161;
+    letter-spacing: 2px;
+    font-weight: 800;
+    border-radius: 5%;
+}
+
+.wrap {
+    width: 90%;
+    border-radius: 10%;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #df1721;
+    box-shadow: 0 0 15px #cccccc;
+    background: #f8f8f8;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.titulop h3 {
+    margin-top: 20px;
+    width: 380px;
+    padding: 15px;
+    text-align: center;
+    background: #2C3E50;
+    text-shadow: 2px 2px 6px #000;
+    font-family: 'Comic Neue', cursive;
+    font-size: 25px;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.proyecto1 {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.contenedortarjeta {
+    margin-top: -40px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 30% 70% 52% 48% / 57% 30% 70% 43%;
+}
+
+.explicacion {
+    margin-top: 90px;
+    width: 38%;
+}
+
+.explicacion h2 {
+    margin-left: auto;
+    margin-top: -80px;
+    width: 380px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 6px #000;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    color: #061161;
+    border-bottom: 1px solid red;
+}
+
+.explicacion p {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.proyecto3 h2 {
+    margin-top: -130px;
+}
+
+.proyecto3 p {
+    margin-top: 0px;
+    width: 100%;
+}
+
+.atras h5 {
+    margin-top: -40px;
+    line-height: 18px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+    color: red;
+    text-align: center;
+}
+
+.atras h3 {
+    margin: -80px;
+    line-height: 28px;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+    color: red;
+    text-align: center;
+}
+
+.atras h4 {
+    margin-top: 80px;
+    font-weight: 900;
+    font-family: 'Comic Neue', cursive;
+    color: red;
+    text-align: center;
+}
+
+.tarjeta-wrap {
+    display: flex;
+    perspective: 800;
+    border-radius: 30% 70% 52% 48% / 57% 30% 70% 43%;
+}
+
+.tarjeta {
+    width: 380px;
+    height: 430px;
+    margin: 10px 70px;
+    background: #cf8017;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.adelante,
+.atras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 30% 70% 52% 48% / 57% 30% 70% 43%;
+}
+
+.adelante {
+    width: 100%;
+}
+
+.atras a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Comic Neue', cursive;
+    color: #000;
+    text-align: center;
+}
+
+.atras {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    background: #cccc;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card1 {
+    background-image: url(../img/rozo/JARDINERITOS.png);
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.card2 {
+    background-image: url(../img/rozo/SOS.png);
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+.card3 {
+    background-image: url(../img/rozo/ciclo3.png);
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+}
+
+
+/*ESTILS GALERIA PROYECTOS JARDINERITOS*/
+
+.jardineritos {
+    margin-bottom: 20px;
+    width: 95%;
+    min-width: 200px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    border-top: 5px solid tomato;
+}
+
+.contejardin {
+    width: 100%;
+}
+
+.wrapperjardin {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.wrapperjardin div {
+    padding: 20px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+    margin-left: 5%;
+}
+
+.wrapperjardin div:hover {
+    border-top: 5px solid #2C3E50;
+}
+
+.box-1jardin {
+    background-image: url(../img/rozo/JARDINERITOS1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-1jardin.open {
+    width: 350px;
+    height: 500px;
+    filter: contrast();
+}
+
+.box-2jardin {
+    background-image: url(../img/rozo/JARDINERITOS2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-2jardin.open {
+    width: 350px;
+    height: 500px;
+    filter: contrast();
+}
+
+.box-3jardin {
+    background-image: url(../img/rozo/JARDINERITOS3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-3jardin.open {
+    width: 350px;
+    height: 500px;
+    filter: contrast();
+}
+
+
+/*ESTILS GALERIA PROYECTOS ECOHEROES*/
+
+.heroes {
+    width: 95%;
+    min-width: 200px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    border-top: 5px solid tomato;
+}
+
+.conteheroes {
+    width: 100%;
+}
+
+.wrapperheroes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.wrapperheroes div {
+    padding: 20px;
+    width: 230px;
+    height: 230px;
+    margin: 20px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.wrapperheroes div:hover {
+    border-top: 5px solid green;
+}
+
+.box-1heroes {
+    background-image: url(../img/rozo/SOS1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-1heroes.open {
+    width: 400px;
+    height: 400px;
+    filter: contrast();
+}
+
+.box-2heroes {
+    background-image: url(../img/rozo/SOS2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-2heroes.open {
+    width: 400px;
+    height: 400px;
+    filter: contrast();
+}
+
+.box-3heroes {
+    background-image: url(../img/rozo/SOS3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-3heroes.open {
+    width: 400px;
+    height: 400px;
+    filter: contrast();
+}
+
+.box-4heroes {
+    background-image: url(../img/rozo/SOS4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-4heroes.open {
+    width: 400px;
+    height: 400px;
+    filter: contrast();
+}
+
+
+/*ESTILS GALERIA PROYECTOS CICLO3*/
+
+.prociclo3 {
+    margin-bottom: 20px;
+    width: 95%;
+    min-width: 200px;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    border-top: 5px solid tomato;
+}
+
+.conteprociclo3 {
+    width: 100%;
+}
+
+.wrapperprociclo3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5%;
+}
+
+.wrapperprociclo3 div {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.wrapperprociclo3 div:hover {
+    border-top: 5px solid red;
+}
+
+.box-1prociclo3 {
+    background-image: url(../img/rozo/ciclo31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-1prociclo3.open {
+    width: 400px;
+    height: 600px;
+    filter: contrast();
+}
+
+.box-2prociclo3 {
+    background-image: url(../img/rozo/ciclo32.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-2prociclo3.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-3prociclo3 {
+    background-image: url(../img/rozo/ciclo33.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-3prociclo3.open {
+    width: 400px;
+    height: 600px;
+    filter: contrast();
+}
+
+.box-4prociclo3 {
+    background-image: url(../img/rozo/ciclo36.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-4prociclo3.open {
+    width: 400px;
+    height: 600px;
+    filter: contrast();
+}
+
+.box-5prociclo3 {
+    background-image: url(../img/rozo/ciclo37.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-5prociclo3.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-6prociclo3 {
+    background-image: url(../img/rozo/ciclo38.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-6prociclo3.open {
+    width: 400px;
+    height: 600px;
+    filter: contrast();
+}
+
+.box-7prociclo3 {
+    background-image: url(../img/rozo/ciclo39.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-7prociclo3.open {
+    width: 400px;
+    height: 600px;
+    filter: contrast();
+}
+
+.box-8prociclo3 {
+    background-image: url(../img/rozo/ciclo310.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+}
+
+.box-8prociclo3.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}

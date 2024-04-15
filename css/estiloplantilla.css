@@ -1,0 +1,210 @@
+/* ESTILOS PRICIPALES */
+
+.cajaprincipal {
+    margin: -60px auto 50px;
+    width: 95%;
+    height: 90%;
+    background: #243B55;
+}
+
+.division {
+    width: 100%;
+    display: flex;
+    background: transparent;
+}
+
+.textodiv {
+    width: 75%;
+    background: #dbdada;
+}
+
+.textodiv h2 {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.textodiv h1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: #243B55;
+}
+
+.textodiv h3 {
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: gray;
+    padding-right: 250px;
+}
+
+.marcoevento {
+    width: 25%;
+    height: 400px;
+    display: flex;
+    border: 20px solid #dbdada;
+}
+
+.imgdiv {
+    width: 25%;
+    margin-bottom: -5px;
+}
+
+.imgdiv img {
+    height: 600px;
+    margin-top: 70px;
+    margin-left: -170px;
+    border-radius: 5%;
+    border-left: 2px solid gray;
+}
+
+.cajaevento {
+    margin: 100px auto 70px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloevento {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloevento h2 {
+    margin-left: 100px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #243B55;
+}
+
+.tituloevento h3 {
+    margin-left: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+.tituloevento p {
+    margin-top: -80px;
+    padding: 100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: gray(233, 14, 14);
+}
+
+.divevento {
+    margin: -90px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgevento {
+    padding: 0;
+    width: 40%;
+    height: auto;
+}
+
+.marcoevento {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    border: 20px solid #dbdada;
+}
+
+.voz img {
+    margin-left: -20px;
+    align-items: center;
+    width: 100%;
+}
+
+.descrip {
+    margin-top: 40px;
+    padding: 0px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.estilovideo {
+    position: absolute;
+}
+
+.video {
+    width: 80%;
+}
+
+.contitexto h2 {
+    margin-top: 70px;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+.imagenesevento {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.fotoevento {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoevento div {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    transition: 1s;
+}
+
+.fotoevento div:hover {
+    transform: scale(1.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fotoevento1 {
+    background-image: url(../img/eventopri.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.fotoevento2 {
+    background-image: url(../img/eventopri1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.fotoevento3 {
+    background-image: url(../img/eventopri2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}

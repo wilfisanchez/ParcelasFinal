@@ -1,0 +1,294 @@
+/* Contenedor principal */
+
+.proyectos {
+    width: 95%;
+    margin: 10px auto;
+    height: auto;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textoproyectos {
+    margin: 50px 0px;
+    width: 80%;
+    height: 100px;
+    background: #ebeaea;
+    border-radius: 10%;
+}
+
+.textoproyectos h1 {
+    padding: 20px;
+    font-size: 45px;
+    line-height: 30px;
+    letter-spacing: 3;
+    font-weight: 800;
+    color: #243b55;
+    font-family: 'Rancho', cursive;
+}
+
+main {
+    border-top: 20px;
+    width: 90%;
+    min-width: 320px;
+    min-height: 200px;
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #fd0505;
+    box-shadow: 0 0 15px #cccccc;
+    background: #ebeaea;
+}
+
+main>* {
+    order: 999;
+}
+
+
+/* Interior del contenedor */
+
+
+/* Lateral */
+
+.lateral {
+    margin-top: 50px;
+    flex-basis: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lateral img {
+    padding: 10px;
+    width: 80%;
+    max-width: 100%;
+    margin: 10px;
+    border-radius: 5%;
+    font-weight: bold;
+    border-radius: 5%;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+    transition: 2s;
+}
+
+.lateral img:hover {
+    transform: scale(1.3);
+}
+
+.lateral span {
+    font-weight: bold;
+}
+
+.lateral a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #061161;
+    margin: 10px 0px;
+}
+
+.lateral a:first-of-type {
+    margin-top: auto;
+}
+
+
+/* Contenido Dia seis*/
+
+.contenido {
+    background-color: rgba(255, 255, 255, .7);
+    flex-basis: 50%;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 530;
+    text-align: justify;
+}
+
+.contenido h2 {
+    padding: 20px;
+    margin-top: 0;
+    font-size: 35px;
+    font-family: 'Comic Neue', cursive;
+    color: #061161;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lec h2 {
+    justify-content: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.contenido ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+}
+
+.contenido ul li {
+    flex-basis: 30%;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5%
+}
+
+.contenido ul li:first-of-type {
+    background-image: url(../img/diaseis/3.jpg);
+}
+
+.contenido ul li:nth-child(2) {
+    background-image: url(../img/diaseis/4.jpg);
+}
+
+.contenido ul li:last-of-type {
+    background-image: url(../img/diaseis/5.jpg);
+}
+
+
+/*estilos contenido proyecto de letura*/
+
+.lec ul li:first-of-type {
+    background-image: url(../img/lectura/3.png);
+}
+
+.lec ul li:nth-child(2) {
+    background-image: url(../img/lectura/2.png);
+}
+
+.lec ul li:last-of-type {
+    background-image: url(../img/lectura/1.png);
+}
+
+
+/* Respond */
+
+@media (max-width: 705px) {
+    body {
+        align-items: flex-start;
+    }
+    main {
+        margin: 20px;
+    }
+    .lateral,
+    .contenido {
+        flex-basis: 100%;
+    }
+    .contenido {
+        order: 1;
+    }
+    .lateral {
+        order: 2;
+    }
+}
+
+.granja {
+    padding: 0px;
+    width: 90%px;
+    min-width: 320px;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #fd0505;
+    box-shadow: 0 0 15px #cccccc;
+    background: #ebeaea;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.contegranja {
+    width: 100%;
+}
+
+.contegranja p {
+    padding: 20px 50px;
+}
+
+.contegranja h2 {
+    padding: 20px 50px 50px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.wrapper div {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.wrapper div:hover {
+    border-top: 5px solid white;
+}
+
+.box-1 {
+    background-image: url(../img/parcelas/granja/3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-1.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-2 {
+    background-image: url(../img/parcelas/granja/5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-2.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-3 {
+    background-image: url(../img/parcelas/granja/4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-3.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}

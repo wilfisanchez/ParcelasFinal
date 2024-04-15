@@ -1,0 +1,848 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Boogaloo&family=Lato:ital@0;1&family=Open+Sans:ital@0;1&family=Poppins:ital@0;1&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.4rem;
+    background-image: url(../img/light-veneer.png);
+}
+
+.pagina {
+    padding-top: 10.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ESTILOS DE ENCABEZADO */
+
+header {
+    background-image: url(../img/paisajeclarogrande72.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: unset;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.cabecera {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cajalogo {
+    margin-left: 5rem;
+    width: 25%;
+    text-align: center;
+}
+
+.cajalogo .logosolo img {
+    width: 6.875rem;
+    height: 6.875rem;
+}
+
+.cajalogo h1 {
+    line-height: 2rem;
+    font-size: 2rem;
+    margin-top: -.5rem;
+    margin-left: 0;
+    font-style: italic;
+    font-family: 'Boogaloo', cursive;
+    color: #061161;
+}
+
+.caja-menu-telefonos {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.telefonos {
+    margin-right: 0.125rem;
+    margin-left: 0px;
+    margin-bottom: 3rem;
+    width: 85%;
+    display: flex;
+    box-shadow: 0 0.1875rem 0 rgba(4, 8, 219, 0.5);
+}
+
+.telefonos ul {
+    list-style: none;
+}
+
+.telefonos ul li {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+/* ESTILOS MENU */
+
+.menu {
+    width: 92%;
+    height: 2.2rem;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu .item {
+    float: left;
+}
+
+.menu .item a {
+    border-radius: 5%;
+    text-decoration: none;
+    background: rgba(4, 8, 219, 0.9);
+    color: white;
+    padding: 10px 22px;
+    display: block;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: all .5s;
+}
+
+.menu .desple {
+    display: none;
+    position: absolute;
+    min-width: 175px;
+}
+
+.menu .item a:hover {
+    background-color: #f8890a;
+}
+
+.menu .item:hover .desple {
+    display: block;
+}
+
+.cajaboton {
+    text-align: center;
+}
+
+.boton {
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 1 rgba(0, 0, 0, 0.3);
+}
+
+.botoncolor {
+    color: white;
+    background-color: rgb(81, 81, 155);
+    transition: all .3s linear;
+}
+
+.botoncolor:hover {
+    background-color: #f8890a;
+}
+
+.botoncolor:active {
+    background-color: rgba(8, 12, 241, 0.5);
+}
+
+
+/* Contenedor principal */
+
+main {
+    width: 900px;
+    min-width: 320px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
+
+main>* {
+    order: 999;
+}
+
+
+/* Interior del contenedor */
+
+
+/* Lateral */
+
+.lateral {
+    background-color: rgba(0, 0, 0, .4);
+    flex-basis: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lateral img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.lateral span {
+    font-weight: bold;
+}
+
+.lateral a {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #061161;
+    margin: 10px 0px;
+}
+
+.lateral a:first-of-type {
+    margin-top: auto;
+}
+
+
+/* Contenido Dia seis*/
+
+.contenido {
+    background-color: rgba(255, 255, 255, .7);
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+.contenido h2 {
+    padding: 20px;
+    margin-top: 0;
+    font-size: 35px;
+    font-family: 'Boogaloo', cursive;
+    color: #061161;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lec h2 {
+    justify-content: center;
+}
+
+.contenido ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido ul li {
+    flex-basis: 30%;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 5%
+}
+
+.contenido ul li:first-of-type {
+    background-image: url(../img/diaseis/3.jpg);
+}
+
+.contenido ul li:nth-child(2) {
+    background-image: url(../img/diaseis/4.jpg);
+}
+
+.contenido ul li:last-of-type {
+    background-image: url(../img/diaseis/5.jpg);
+}
+
+
+/*estilos contenido proyecto de letura*/
+
+.lec ul li:first-of-type {
+    background-image: url(../img/lectura/3.png);
+}
+
+.lec ul li:nth-child(2) {
+    background-image: url(../img/lectura/2.png);
+}
+
+.lec ul li:last-of-type {
+    background-image: url(../img/lectura/1.png);
+}
+
+
+/* Respond */
+
+@media (max-width: 705px) {
+    body {
+        align-items: flex-start;
+    }
+    main {
+        margin: 20px;
+    }
+    .lateral,
+    .contenido {
+        flex-basis: 100%;
+    }
+    .contenido {
+        order: 1;
+    }
+    .lateral {
+        order: 2;
+    }
+}
+
+.granja {
+    padding: 0px;
+    width: 900px;
+    min-width: 320px;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.contegranja {
+    width: 100%;
+}
+
+.contegranja p {
+    padding: 20px 50px;
+}
+
+.contegranja h2 {
+    padding: 20px 50px 50px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.wrapper div {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    cursor: pointer;
+    border-top: 5px solid transparent;
+}
+
+.wrapper div:hover {
+    border-top: 5px solid white;
+}
+
+.box-1 {
+    background-image: url(../img/parcelas/granja/3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-1.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-2 {
+    background-image: url(../img/parcelas/granja/5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-2.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+.box-3 {
+    background-image: url(../img/parcelas/granja/4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    transition: all 600ms cubic-bezier(1, 0, 0, 1);
+    filter: grayscale();
+}
+
+.box-3.open {
+    width: 500px;
+    height: 300px;
+    filter: contrast();
+}
+
+
+/*ESTILOS DE PIE DE PAGINA */
+
+footer {
+    width: 100%;
+    background-image: url(../img/hoja.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: unset;
+    z-index: 2;
+    margin-top: 50px;
+}
+
+.pieprincipal {
+    margin: 0;
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pieencabezado {
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pielogo {
+    width: 32%;
+    height: 12.5rem;
+    text-align: center;
+}
+
+.pielogo .logosolo .logo img {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pielogo h3 {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    margin-top: -.5rem;
+    font-style: italic;
+    font-family: 'Boogaloo', cursive;
+    color: #061161;
+}
+
+.pielogo p {
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.6rem;
+    margin-top: .5rem;
+    font-style: italic;
+    color: black;
+}
+
+.piesede {
+    margin-left: 1rem;
+    width: 18%;
+    height: 12.5rem;
+}
+
+.piesede h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.piesede ul {
+    line-height: 1.2rem;
+    margin-top: 0.3rem;
+    list-style: none;
+}
+
+.piesede ul li a {
+    border-radius: 10%;
+    transition: .5s linear;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0rem;
+    text-decoration: none;
+}
+
+.piesede ul li a:hover {
+    color: #f8890a;
+    background: rgba(0, 0, 0, .5);
+}
+
+.piecontacto {
+    width: 30%;
+    height: 12.5rem;
+}
+
+.iconos {
+    margin-top: 7px;
+    margin-left: 170px;
+}
+
+.piecontacto h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.piecontacto p {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    margin-top: 0.3375rem;
+    font-weight: bold;
+}
+
+.piecontacto .fa-envelope-o {
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.pieubicacion {
+    width: 20%;
+    height: 12.5rem;
+}
+
+.pieubicacion h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #061161;
+}
+
+.pieubicacion p {
+    color: black;
+    font-size: 0.9375rem;
+    text-align: center;
+    line-height: 0.9375rem;
+    margin-top: 0.0625rem;
+}
+
+.pieubicacion iframe {
+    margin: 0.3125rem;
+    margin-left: 3rem;
+    width: 10.9375rem;
+    height: 8.125rem;
+    border-radius: 20%;
+}
+
+.piemenu {
+    width: 100%;
+    height: 6.25rem;
+}
+
+.derechos {
+    width: 100%;
+    height: 2.5rem;
+    background: rgb(43, 42, 42);
+}
+
+.derechos h2 {
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+/* ESTILOS DE PAGINA DE RESEÑA HISTORICA */
+
+.inicio {
+    width: 95%;
+    margin: auto;
+    align-content: center;
+    font-family: 'Boogaloo', cursive;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    padding-bottom: 50px;
+}
+
+.inicio h1 {
+    width: 450px;
+    display: inline-block;
+    font-size: 35px;
+    color: #061161;
+    padding: 50px 0 10px 50px;
+    border-bottom: 3px solid red;
+}
+
+.caja1 img {
+    margin-left: 50px;
+    padding: 0 50px;
+    width: 40%;
+    float: left;
+}
+
+.caja2 img {
+    margin-right: 50px;
+    padding: 0 50px;
+    width: 35%;
+    float: right;
+}
+
+.caja3 img {
+    padding: 0 50px 30px 50px;
+    width: 50%;
+    float: left;
+}
+
+.inicio p {
+    font-size: 16px;
+    margin: 30px 50px;
+    text-align: justify;
+    border-bottom: 2px solid rgb(85, 110, 221);
+    margin-bottom: 0px;
+    height: auto;
+}
+
+.mas h1 {
+    text-align: center;
+}
+
+
+/* ESTILOS HORIZONTE INSTITUCIONAL */
+
+.resena {
+    height: auto;
+    width: 95%;
+    margin: auto;
+    font-family: 'Boogaloo', cursive;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.resena h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    color: #061161;
+    padding: 50px 0 10px 0;
+    border-bottom: 3px solid red;
+}
+
+.mision h2 {
+    font-size: 32px;
+    color: #061161;
+    margin: 30px 80px;
+    padding-bottom: 0px;
+}
+
+.mision img {
+    padding: 0 50px 30px 80px;
+    width: 40%;
+    float: left;
+}
+
+.mision p {
+    font-size: 18px;
+    margin: 70px 80px;
+    text-align: justify;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgb(85, 110, 221);
+}
+
+.vision h2 {
+    font-size: 32px;
+    color: #061161;
+    margin: 30px 80px;
+    padding-bottom: 10px;
+}
+
+.vision img {
+    padding: 0 80px 30px 80px;
+    width: 45%;
+    float: right;
+}
+
+.vision p {
+    font-size: 20px;
+    margin: 60px 80px 20px 80px;
+    text-align: justify;
+    border-bottom: 2px solid rgb(85, 110, 221);
+    margin-bottom: 0px;
+    padding-bottom: 110px;
+}
+
+
+/* ESTILOS DE PAGINA GALERIA */
+
+.titulogaleria {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+}
+
+.paginagaleria {
+    background: rgba(0, 0, 0, 0.8);
+    width: 95%;
+    margin: auto;
+    height: auto;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+}
+
+.contenedor-galeria {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeriaimg {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    animation: escalar 2s infinite alternate;
+    cursor: pointer;
+}
+
+@keyframes escalar {
+    to {
+        transform: scale(1);
+    }
+    from {
+        transform: scale(1.05);
+    }
+}
+
+.galeriaimg:hover {
+    filter: brightness(100%)
+}
+
+figure {
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption {
+    color: white;
+    transition: all 1s;
+    /*background: rgba(0, 0, 0, .7);*/
+    position: absolute;
+    left: 0px;
+    bottom: -135px;
+    background: rgb(17, 17, 17);
+    width: 100%;
+    padding: 0;
+}
+
+figcaption p {
+    text-align: center;
+    font-weight: bold;
+}
+
+figure:hover figcaption {
+    bottom: 0px;
+}
+
+figcaption ul {
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+figcaption a {
+    margin-left: 249px;
+}
+
+.modalgaleria {
+    display: none;
+}
+
+.modalgaleria:target {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    top: 280px;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+
+.imagengaleria {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagengaleria a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.imagengaleria a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagengaleria img {
+    margin-top: 100px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    margin: 100px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 50px;
+    height: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    padding: 2px;
+    line-height: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

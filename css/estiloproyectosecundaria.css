@@ -1,0 +1,361 @@
+/* ESTILOS DE INTRO */
+
+.intro {
+    margin: auto;
+    margin-top: -10px;
+    width: 90%;
+    height: 500;
+    background-image: url(../img/proyectos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.185rem 1rem;
+}
+
+.intro:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.tituintro {
+    padding-top: 20px;
+    color: white;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.intro p {
+    line-height: 25px;
+    margin-top: 110px;
+    display: block;
+    color: white;
+    position: relative;
+    font-size: 23px;
+    width: 85%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/*TARJETAS DE PROYECTOS */
+
+.mainproyectos {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin-top: 50px;
+    width: 95%;
+    height: auto;
+    box-shadow: 0 0 0 0.2rem rgb(233, 213, 213), 0 0 0 .1875rem, 0 0.1875rem 2rem;
+    margin-bottom: 50px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.titulos h1 {
+    background-color: #79476e;
+    border-radius: 0px 40px 0px 40px;
+    width: 800px;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    color: #f5f6fa;
+    text-shadow: 4px 4px 5px #061161;
+    letter-spacing: 2px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+.wrap {
+    width: 95%;
+    border-radius: 10%;
+    border-left-style: 5px solid #2C3E50;
+    box-shadow: 0 0 15px #cccccc;
+    background: #EAFAF1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.cinco {
+    background: #B3B6B7;
+    border-left: 5px solid red;
+}
+
+.wrap h2 {
+    background-color: #224228;
+    border-radius: 0px 40px 0px 40px;
+    border: 5px solid #fafafa;
+    width: 700px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 4px 4px 5px #061161;
+    letter-spacing: 2px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: 900;
+}
+
+.titulop h3 {
+    margin-top: 20px;
+    width: 400px;
+    padding: 15px;
+    text-align: center;
+    background: #2C3E50;
+    text-shadow: 2px 2px 6px #000;
+    font-family: 'Comic Neue', cursive;
+    font-size: 28px;
+    color: #f2f2f2;
+    font-weight: 600;
+}
+
+.proyecto1 {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.contenedortarjeta {
+    margin-top: 0px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-right: 5px solid #2C3E50;
+}
+
+.explicacion {
+    margin-left: 80px;
+    margin-top: 90px;
+    width: 35%;
+    height: auto;
+}
+
+.explicacion h6 {
+    margin-left: auto;
+    margin-top: -80px;
+    width: 450px;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 6px #000;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    color: #061161;
+    border-bottom: 1px solid red;
+}
+
+.explicacion p {
+    padding: 25px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.atras h3 {
+    margin: -10px;
+    line-height: 28px;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
+    color: red;
+    text-align: center;
+}
+
+.atras h4 {
+    margin-top: 20px;
+    font-family: 'Comic Neue', cursive;
+    color: red;
+    text-align: center;
+}
+
+.tarjeta-wrap {
+    display: flex;
+    perspective: 800;
+}
+
+.tarjeta {
+    width: 380px;
+    height: 430px;
+    margin: 10px 70px;
+    background: #D6DBDF;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+    border-radius: 5%;
+}
+
+.adelante,
+.atras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5%;
+}
+
+.adelante {
+    width: 100%;
+}
+
+.atras p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Comic Neue', cursive;
+    color: #000;
+    text-align: center;
+}
+
+.atras {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #cccccc;
+}
+
+.tarjeta-wrap:hover .tarjeta {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card1 {
+    background-image: url(../img/Parcerizate1.png);
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(../img/cota.png);
+    background-size: cover;
+}
+
+
+/*ESTILOS GALERIA PROYECTOS JARDINERITOS*/
+
+.jardineritos {
+    margin: 0px;
+    width: 80%;
+    min-width: 300px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.jardineritos img {
+    width: 30%;
+    padding: 15px;
+}
+
+.pri {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.seg {
+    clip-path: circle(48.4% at 50% 50%);
+}
+
+.ter {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.cinco .pri {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 79% 76%, 61% 87%, 43% 78%, 0% 75%);
+}
+
+.cinco .seg {
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.cinco .ter {
+    clip-path: circle(40.4% at 50% 50%);
+}
+
+
+/* ESTILOS PROYECTO CINSO */
+
+.sectores {
+    margin: 0px;
+    width: 80%;
+    min-width: 300px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sectores img {
+    margin-top: 50px;
+    width: 30%;
+    padding: 15px;
+}
+
+.sectores .pri {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.sectores .seg {
+    clip-path: circle(48.4% at 50% 50%);
+}
+
+.sectores .ter {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.sectores .cinco .pri {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 79% 76%, 61% 87%, 43% 78%, 0% 75%);
+}
+
+.sectores .cinco .seg {
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+
+.sectores .cinco .ter {
+    clip-path: circle(40.4% at 50% 50%);
+}
